@@ -1,0 +1,27 @@
+TITLE: New Website
+AUTHOR: Andrew Schofield
+DATE: Fri Oct  5 07:22:55 CDT 2007
+DESC: First post about the new website for FahMon
+FORMAT: raw
+-----
+BODY:
+<p>FahMon now has a nice new website which you are reading right 
+now.</p>
+<p>As well as being <i>the</i> source for downloading FahMon, it now 
+integrates with trac and svn for the development and support side 
+too.</p>
+<p>Hopefully this should be easier for you as end users too, and you 
+should be able to syndicate the RSS/ATOM news feeds for new releases, 
+development news and information important to translators.</p>
+<p>Since trac is being used to handle the project management, we now 
+have a sophisticated bug tracking and milestone management system. 
+This makes it very easy for you to submit bug reports and for me to 
+manage them, and the project as a whole.</p>
+<p>I'm still working on the trac side of things, so it doesn't allow 
+you to create tickets etc. yet, but that will come soon.</p>
+<p>Anyone can now browse the development source, either though the 
+trac browser, or via the svn server itself at svn.fahmon.net</p>
+<p>If you want to download the most recent development source, you 
+can check it out from svn using your favourite svn client</p>
+<pre>svn export http://svn.fahmon.net/trunk fahmon</pre>
+END-----

@@ -1,0 +1,9 @@
+TITLE: Fedora and SUSE packages for 2.3.1 up
+AUTHOR: Andrew Schofield
+DATE: Mon Nov  5 15:30:21 CST 2007
+DESC: x86-64 packages only
+FORMAT: raw
+-----
+BODY:
+<p>Precompiled binaries are now available for both Fedora Core 7 and SUSE 10.2 AMD64</p>
+END-----

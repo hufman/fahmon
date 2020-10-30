@@ -1,0 +1,18 @@
+TITLE: FahMon 2.3.99.1 Released
+AUTHOR: Andrew Schofield
+DATE: Mon Apr  6 08:59:32 CDT 2009
+DESC: 
+FORMAT: raw
+-----
+BODY:
+<p>FahMon 2.3.99.1 is now available for download. Please see the download page for details on how to get 
+it.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p>
+<p>What's new in this release</p>
+<ul>
+<li>Fixed a nasty crash-bug which affected Windows users monitoring linux clients. This also cleans up 
+some behaviour that affects all platforms
+</ul>
+<p>As always if you find any bugs in the FahMon please report them using <a 
+href="http://trac.fahmon.net/">trac</a></p>
+END-----

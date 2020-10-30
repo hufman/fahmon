@@ -1,0 +1,12 @@
+TITLE: New/updated translations available
+AUTHOR: Andrew Schofield
+DATE: Mon Feb 11 12:00:45 CST 2008
+DESC: Updated Portuguese and new German translations
+FORMAT: raw
+-----
+BODY:
+<p>The download page has been updated with links to the v2.3.2 translations for Portuguese (pt_PT) and 
+German (de_DE). Thanks to Mark Gerber for the German translation.</p>
+<p>Installation for Windows is simple, but for Linux it can be a bit more tricky. Read the wiki page 
+linked on the download page for precise instructions.</p>
+END-----

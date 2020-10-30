@@ -1,0 +1,11 @@
+TITLE: Trac notifications fixed/enabled
+AUTHOR: Andrew Schofield
+DATE: Wed Oct 31 15:41:07 CDT 2007
+DESC: Notifications about tickets now work as intended
+FORMAT: raw
+-----
+BODY:
+<p>Trac's ticket system now sends out email notifications when tickets are created/modified. So if you have set up and email address in your profile, you will 
+automatically be sent an email when replies are posted, or the bug you reported is fixed etc.</p>
+<p>Emails are sent from trac(@)fahmon.net, but you will receive no response if you reply to this address</p>
+END-----

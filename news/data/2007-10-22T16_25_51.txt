@@ -1,0 +1,12 @@
+TITLE: Trac permissions fixed 
+AUTHOR: Andrew Schofield
+DATE: Mon Oct 22 16:25:51 CDT 2007
+DESC: You can now create tickets
+FORMAT: raw
+-----
+BODY:
+<p>Shello alerted me that the permission were set up wrong in trac which meant that new users couldn't 
+actually create tickets. In fact, they had no more privildges than un registered users.</p>
+<p>This has now been fixed, and users registered on trac.fahmon.net can now create tickets for bug 
+reports and feature requests.</p>
+END-----

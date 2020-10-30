@@ -1,0 +1,25 @@
+TITLE: FahMon 2.3.1 Released
+AUTHOR: Andrew Schofield
+DATE: Tue Oct 30 14:06:27 CDT 2007
+DESC: All new version
+FORMAT: raw
+-----
+BODY:
+<p>The latest and greatest version of FahMon has just been released, after several rounds of testing 
+and breaking (thanks to all who tested various features). You can get to the most up-to-date version 
+of FahMon by going to the download page, which now uses static links which automatically resolve to 
+the latest version available.</p>
+<p>The download page also has a link to the comprehensive changelog.</p>
+<p>Things to look out for in this version are:</p>
+<ul>
+<li>Simplified how you add clients: Drag and drop the client folder into the client list, fill in the 
+name, and away you go.
+<li>Export to Web: A new "WebApp" module has been added which presents you with various ways of publishing 
+the FahMon output to either webpages, or static text files. The Web Application option exports a fancy 
+javascript powered webpage which mimics the FahMon interface.
+<li>Update checking: FahMon can now check if a newer version is available online. This can be done 
+automatically on startup, or manually from the FahMon menu 
+</ul>
+<p>If you find any bugs with this version, please use trac, the online project manager to report them. 
+<a href="http://trac.fahmon.net.">http://trac.fahmon.net/</a></p>
+END-----

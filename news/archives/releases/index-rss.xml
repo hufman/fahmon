@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="http://fahmon.net/news/styles/feed.css"?>
+<rss version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:admin="http://webns.net/mvcb/">
+<channel>
+<title>FahMon News</title>
+<link>http://fahmon.net/news/archives/releases/index.php</link>
+<description>News and development of FahMon</description>
+<dc:language>en-us</dc:language>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:date>2010-11-12T13:09:39-06:00</dc:date>
+<admin:generatorAgent rdf:resource="http://nanoblogger.sourceforge.net" />
+<item>
+<link>http://fahmon.net/news/archives/2010/11/12/index.php#e2010-11-12T12_55_55.txt</link>
+<title>FahMon 2.3.99.4 Released</title>
+<dc:date>2010-11-12T12:55:55-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.99.4 is now available for download. Please see the download page for details on how to get it.</p> 
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p> 
+<p>What's new in this release</p> 
+<ul>
+<li>New core support and fixed parsing of others.
+<li>Pause detection works properly now.
+<li>Update available window will show version numbers on subsequent updates.
+<li>Benchmarks database now stored in xml format. 
+</ul> 
+<p>As always if you find any bugs in the FahMon please report them using <a href="http://trac.fahmon.net/">trac</a></p> ]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2010/10/19/index.php#e2010-10-19T17_39_30.txt</link>
+<title>FahMon 2.3.99.3 Released</title>
+<dc:date>2010-10-19T17:39:30-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.99.3 is now available for download. Please see the download page for details on how to get 
+it.</p> 
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p> 
+<p>What's new in this release</p> 
+<ul> 
+<li>New core support.
+<li>Fixed Windows Vista/7 DEP/C++ runtime crash
+<li>Fixed projects.dat not deleting on Windows
+</ul> 
+<p>As always if you find any bugs in the FahMon please report them using <a 
+href="http://trac.fahmon.net/">trac</a></p> ]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2010/10/17/index.php#e2010-10-17T16_09_52.txt</link>
+<title>FahMon 2.3.99.2 Released</title>
+<dc:date>2010-10-17T16:09:52-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.99.2 is now available for download. Please see the download page for details on how to get it.</p> 
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p> 
+<p>What's new in this release</p> 
+<ul> 
+<li>New core support.
+<li>Fixed thread-safety issues.
+<li>Projects database now stored in xml format.
+</ul> 
+<p>As always if you find any bugs in the FahMon please report them using <a href="http://trac.fahmon.net/">trac</a></p> ]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2009/04/06/index.php#e2009-04-06T08_59_32.txt</link>
+<title>FahMon 2.3.99.1 Released</title>
+<dc:date>2009-04-06T08:59:32-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.99.1 is now available for download. Please see the download page for details on how to get 
+it.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p>
+<p>What's new in this release</p>
+<ul>
+<li>Fixed a nasty crash-bug which affected Windows users monitoring linux clients. This also cleans up 
+some behaviour that affects all platforms
+</ul>
+<p>As always if you find any bugs in the FahMon please report them using <a 
+href="http://trac.fahmon.net/">trac</a></p>]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2009/04/03/index.php#e2009-04-03T17_34_38.txt</link>
+<title>FahMon 2.3.99 Released</title>
+<dc:date>2009-04-03T17:34:38-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.99 is now available for download. Please see the download page for details on how to get 
+it.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p>
+<p>A bit of what's new in this release:</p>
+<ul>
+<li>Removed WU info panel from default view.
+<li>Lots of performance changes.
+<li>You can now monitor clients via FTP and HTTP.
+<li>You can upload web output to an FTP server automatically.
+</ul>
+<p><b>What happened to 2.4.0?</b><br />
+As a result of the performance and memory fixes, a previously infrequent crash-bug has increased in 
+prevalence and will take more time to fix. Since this is still unlikely to occur often I'm releasing the 
+current code as it stands. 2.4.0 will be released as soon as this crash-bug is fixed.</p>
+
+<p>As always if you find any bugs in FahMon please report them using <a 
+href="http://trac.fahmon.net/">trac</a></p>]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/11/04/index.php#e2008-11-04T18_05_18.txt</link>
+<title>FahMon 2.3.4 Released</title>
+<dc:date>2008-11-04T18:05:18-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.4 is now available for download. Please see the download page for details on how to get 
+it.</p>
+<p>For a comprehensive list of changes please view the changlog which is linked to from the homepage.</p>
+<p>What's new in this release:</p>
+<ul>
+<li>This version fixes the nasty bug in 2.3.3 which cause clients to fail to update after non-specific 
+periods of time. This was caused by a typo in the update queue handler which now works properly.
+<li>CPU usage has been reduced slightly when refreshing clients thanks to a re-worked message logger.
+<li>clientstab.txt is now tab-delimited. This has no effect on FahMon, but may break compatibility with 
+other tools that read this file.
+</ul>
+<p>As always if you find any bugs in FahMon please report them using <a 
+href="http://trac.fahmon.net/">trac</a></p>]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/11/01/index.php#e2008-11-01T13_11_52.txt</link>
+<title>FahMon 2.3.3 Released</title>
+<dc:date>2008-11-01T13:11:52-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.3 is now available for download. Please see the download page for details on how to get 
+it.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the home 
+page.</p>
+<p>What's new in this release:</p>
+<ul>
+<li>The client list view has been made much more configurable and additional columns can be added with a 
+right click on the column title.
+<li>You can now completely hide the WU Info panel on the right hand side of the main FahMon window.
+<li>Clients can now be managed from the main menu instead of a right click menu in the clients list.
+<li>Clients can now be manually disabled if you don't want FahMon to monitor them.
+<li>Paused clients can now be detected and shouldn't register as *hung*.
+<li>A number of debilitating bugs that affected GPU monitoring have been fixed.
+<li>FahMon on Windows now follows MS guidelines for storage of settings. This means no more problems with 
+UAC on Vista when downloading project updates.
+</ul>
+<p>Special thanks go to John Daiker for providing a number of patches to improve GPU2 support as well as 
+fixing the "quick-refresh" crash bug.</p>
+<p>As always if you find any bugs in FahMon please report them using <a 
+href="http://trac.fahmon.net">trac</a></p>]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/04/11/index.php#e2008-04-11T17_50_09.txt</link>
+<title>FahMon 2.3.2b Released.</title>
+<dc:date>2008-04-11T17:50:09-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.2b is now available for download. See the download page for details on how to get it.</p>
+
+<p>For a comprehensive list of changes please view the changelog which is linked to from the home page and the download page.</p>
+
+<p>What's new in this release:</p>
+<ul>
+<li>Several behavioural fixes to dialogs and a number of visual fixes including displaying fractional deadlines correctly.
+<li>Windows now maximises from the System tray correctly. Finally.
+<li>A number of performance and behaviour tweaks to the OS X build.
+<li>GPU2 core support.
+</ul>
+<p>Special thanks go to Mark Gerby (Gerby19) for helping me debug and test some of the Windows bugs</p>
+<p>To activate GPU2 support you may need to update the project list from the "FahMon" menu.</p>
+<p>As always if you find any bugs in FahMon please report them using <a href="http://trac.fahmon.net/">
+trac.</a></p>]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/02/16/index.php#e2008-02-16T07_37_10.txt</link>
+<title>FahMon 2.3.2a Released. Now with OS X Support!</title>
+<dc:date>2008-02-16T07:37:10-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>FahMon 2.3.2a is now available for download. See the download page for details on how to get it.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the home page 
+and the download page.</p>
+<p>What's new in this release:</p>
+<ul>
+<li>The endian-swap bug has been squashed so you can now monitor PPC Macs from Windows again.
+<li>Several annoying Windows bugs have been squashed, so FahMon now restores it's frame state from the 
+system tray and taskbar correctly.
+<li><b>FahMon now runs on Mac OS X!</b>
+</ul>
+<p>My thanks to several members of Team Mac OS X who helped test and debug the OS X verison.</p>
+<p>Several translation updates were missed for this version, so if you notice missing translations 
+whilst using FahMon and feel like updating them, send them along to me and I'll incorporate them into 
+the builds on the website.</p>
+<p>As always if you find any bugs in FahMon please report them using <a href="http://trac.fahmon.net/">
+trac.</a></p>
+<p>Now some eye-candy:</p>
+<img src='/news/images/osx1.png' />&nbsp;<img src='/news/images/osx2.png' />]]>
+</description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/02/08/index.php#e2008-02-08T16_07_42.txt</link>
+<title>FahMon 2.3.2 released</title>
+<dc:date>2008-02-08T16:07:42-06:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Releases</dc:subject>
+<description>
+<![CDATA[<p>At long last FahMon 2.3.2 is now available!<br />To download this version visit the download page.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the home page 
+and the download page.</p>
+<p>Here's a brief overview of what's new in this release:</p>
+<ul>
+<li>Lots of bug fixes in this release to make FahMon more stable, there should be
+  far fewer instances of FahMon crashing for no apparent reason, and CPU usage
+  whilst reloading clients has been decreased.
+<li>Several bits of data are now retreived using core code from qd (Queue Dumper)
+  <a href="http://linuxminded.xs4all.nl/?target=software-qd-tools.plc">
+  http://linuxminded.xs4all.nl/?target=software-qd-tools.plc</a>.
+<li>Web output is now completely configurable thanks to a new templating system
+  which allows you to create custom output pages.
+<li>Documentation should now be much more understandable.
+</ul>
+<p>Several translation updates were missed for this version, so if you notice missing translations 
+whilst using FahMon and feel like updating them, send them along to me and I'll incorporate them into 
+the builds on the website.</p>
+<p>As always if you find any bugs in FahMon please report them using <a href="http://trac.fahmon.net/">
+trac.<a/></p>]]>
+</description>
+</item>
+</channel>
+</rss>

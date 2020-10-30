@@ -1,0 +1,23 @@
+TITLE: Web templating system
+AUTHOR: Andrew Schofield
+DATE: Sat Jan 19 19:05:59 CST 2008
+DESC: Much improved, and you can make your own output pages
+FORMAT: raw
+-----
+BODY:
+<p>In order to fix some serious bugs in the web output system (and the rather stupid object code it 
+generated), I've adapted it to use a templating system.</p>
+<p>This makes it easier to fix bugs in the pages generated, like the current IE7 rendering issue with 
+the fancy output page. Another upside of this is that now you, the end user, can make your own 
+templates and make the output pages appear just how you want them.</p>
+<p>For the moment you can still only generate 3 pages, and the template filenames are fixed, but you 
+can still edit the predefined template as you see fit. Future revisions may allow you to specify the 
+template file to use for the output page. Also, if you make a particularly nice output page, submit it 
+in a ticket and I'll consider including it with the next FahMon release.</p>
+<p>Template files are stored within the templates subdirectory of your FahMon installation on Windows, 
+and you can edit these directly. On Linux, the templates are installed to /usr/share/fahmon/templates 
+or /usr/local/share/fahmon/templates by default. However, if you want to modify these, make a new 
+directory inside your .fahmon/ config folder called "templates" and copy them there.</p>
+<p>To check out these modifications now, checkout the latest revision from svn (source only). To learn how 
+to use the templates, have a look at this file: <a href="http://trac.fahmon.net/browser/trunk/TEMPLATE_SYNTAX?format=raw">http://trac.fahmon.net/browser/trunk/TEMPLATE_SYNTAX?format=raw</a>.</p>
+END-----

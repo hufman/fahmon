@@ -1,0 +1,16 @@
+TITLE: Known bugs in 2.3.2beta
+AUTHOR: Andrew Schofield
+DATE: Fri Jan 25 12:54:12 CST 2008
+DESC: 
+FORMAT: raw
+-----
+BODY:
+There have been a couple of reports of undocumented bugs in the 2.3.2beta release which have now been 
+fixed in SVN. It is likely that a beta2 will be released in the near future to check that these bugs are 
+no longer present.
+<ul>
+<li>FahMon will crash if the project database doesn't contain project info for a WU it is monitoring.
+<li>The simple web output erroneously adds an extra "points" string to the credit field.
+<li>Several text items on all web output files cannot be translated.
+</ul>
+END-----

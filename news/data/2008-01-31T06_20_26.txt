@@ -1,0 +1,21 @@
+TITLE: FahMon-2.3.2beta3 ready for testing
+AUTHOR: Andrew Schofield
+DATE: Thu Jan 31 06:20:26 CST 2008
+DESC: 
+FORMAT: raw
+-----
+BODY:
+<p>This is the third and hopefully final unsupported beta for FahMon 2.3.2 to clear up some additional 
+reported bugs.</p>
+<p>This release fixes an issue with the download time and effective rate calculations which were being 
+translated by incorrect amounts from UTC by the timezone logic. An issue which caused FahMon to crash at 
+the end of perculiar WUs have also been dealt with.</p>
+<p>Assuming this beta is stable, and I can get all the outstanding translations back in a timely fashion, 
+2.3.2 should be released publicly sometime next week. There are a number of documentation files that need 
+to be altered in the meantime.</p>
+<p>As always, report bugs in this release using trac: <a 
+href="http://trac.fahmon.net/">http://trac.fahmon.net</a>.</p>
+<b>Download:</b>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta3.zip">Windows</a>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta3.tar.bz2">Linux/Source</a>
+END-----

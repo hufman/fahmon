@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <?xml-stylesheet type="text/css" href="http://fahmon.net/news/styles/feed.css"?>
+<rss version="2.0"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+<channel>
+<title>FahMon News</title>
+<link>http://fahmon.net/news/archives/translations/index.php</link>
+<description>News and development of FahMon</description>
+<dc:language>en-us</dc:language>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:date>2008-06-16T12:00:30-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://nanoblogger.sourceforge.net" />
+<item>
+<link>http://fahmon.net/news/archives/2008/02/11/index.php#e2008-02-11T12_00_45.txt</link>
+<title>New/updated translations available</title>
+<dc:date>2008-02-11T12:00:45-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Translations</dc:subject>
+<description><![CDATA[<p>The download page has been updated with links to the v2.3.2 translations for Portuguese (pt_PT) and 
+German (de_DE). Thanks to Mark Gerber for the German translation.</p>
+<p>Installation for Windows is simple, but for Linux it can be a bit more tricky. Read the wiki page 
+linked on the download page for precise instructions.</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/01/24/index.php#e2008-01-24T07_54_51.txt</link>
+<title>FahMon-2.3.2beta ready for translating</title>
+<dc:date>2008-01-24T07:54:51-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Translations</dc:subject>
+<description><![CDATA[This is just to trigger the translations RSS feed. For the full release info see: <a 
+href="http://fahmon.net/news/archives/2008/01/24/index.html#e2008-01-24T07_51_17.txt">FahMon 2.3.2beta 
+ready for testing</a>.]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/21/index.php#e2007-10-21T18_33_26.txt</link>
+<title>Prerelease1 build ready for translating </title>
+<dc:date>2007-10-21T18:33:26-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Translations</dc:subject>
+<description><![CDATA[<p>FahMon version 2.3.1pre1 is now ready for translators to update the translations ready for the 
+upcoming 2.3.1 release.</p>
+<p>The second prerelease is necessary due to a bug being found in 2.3.1pre which had several translations missing.</p>
+<p>2.3.1pre1 also includes some code updates commited after 2.3.1pre was released.</p>
+<p>For existing translations there are an additional 30 strings that need translating.</p>
+
+<p>If FahMon doesn't exist in in your native language, and you'd like it to, now is an excellent time to start translating it.</p>
+<p>The links to use are:<br />Windows <a href="http://fahmon.net/downloads/testing/FahMon-2.3.1pre1.zip">http://fahmon.net/downloads/testing/FahMon-2.3.1pre1.zip</a><br />Linux <a href="http://fahmon.net/downloads/testing/FahMon-2.3.1pre1.tar.bz2">http://fahmon.net/downloads/testing/FahMon-2.3.1pre1.tar.bz2</a></p>
+<p>The information you'll need for submitting translations etc, can be found <a href="http://trac.fahmon.net/wiki/TranslatingFahMon">here</a>.</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/15/index.php#e2007-10-15T12_41_20.txt</link>
+<title>Prerelease build ready for translating</title>
+<dc:date>2007-10-15T12:41:20-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Translations</dc:subject>
+<description><![CDATA[<p>FahMon version 2.3.1pre is now ready for translators to update the translations ready for the 
+upcoming 2.3.1 release.</p>
+<p>For existing translations there are an additional 20 strings that need translating.</p>
+<p>If FahMon doesn't exist in in your native language, and you'd like it to, now is an excellent time 
+to start translating it.</p>
+<p>The links to use are:<br />Windows <a 
+href="http://fahmon.net/downloads/testing/FahMon-2.3.1pre.zip">http://fahmon.net/downloads/testing/FahMon-2.3.1pre.zip</a><br 
+/>Linux <a 
+href="http://fahmon.net/downloads/testing/FahMon-2.3.1pre.tar.bz2">http://fahmon.net/downloads/testing/FahMon-2.3.1pre.tar.bz2</a></p>
+<p>The information you'll need for submitting translations etc, can be found <a 
+href="http://trac.fahmon.net/wiki/TranslatingFahMon">here</a>.</p>
+<p>I'm quite happy for non-translators to use these builds, however, they are not, and never will be 
+supported in any way (and you'll be missing any updated or new translations).<br />If you want to stay 
+supported, wait until the official release is announced.</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/05/index.php#e2007-10-05T09_44_45.txt</link>
+<title>First post for translators</title>
+<dc:date>2007-10-05T09:44:45-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Translations</dc:subject>
+<description><![CDATA[<p>For the existing translators out there, and for any potential new 
+translators, this is the section you want to be watching to stay up 
+to date with when new translations are required.</p>
+<p>This generally means you'll get a few days advance on everyone 
+else for downloading the official release, however it won't be 
+officially supported, and should really only be used for checking 
+that your new translations work etc.</p>
+<p>To subscribe to this website category, the best way is to go to 
+the translations category link on the side bar and subscribe to the 
+rss feed. Alternatively you can click on the rss/atom feeds on the 
+"syndicate" panel on the right, which any modern browser will allow 
+you to bookmark, or send to google reader.</p>
+<p>To get involved in translations right away, all you need to 
+download is the fahmon.pot file from the svn trunk (see the home 
+page for the direct link). About a week or so prior to an official 
+release, a new post will be made here to notify you of the 
+prerelease translation source (if you are keen and keep up with 
+development, you shouldn't have to do very much on the prerelease 
+versions).</p>
+<p>To submit your translations, at the moment the best way to do it 
+is the submit a ticket on trac, and attach the .po file you have 
+created. I can then merge that into the source.</p>]]></description>
+</item>
+</channel>
+</rss>

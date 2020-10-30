@@ -1,0 +1,26 @@
+TITLE: FahMon 2.3.2a Released. Now with OS X Support!
+AUTHOR: Andrew Schofield
+DATE: Sat Feb 16 07:37:10 CST 2008
+DESC: 
+FORMAT: raw
+-----
+BODY:
+<p>FahMon 2.3.2a is now available for download. See the download page for details on how to get it.</p>
+<p>For a comprehensive list of changes please view the changelog which is linked to from the home page 
+and the download page.</p>
+<p>What's new in this release:</p>
+<ul>
+<li>The endian-swap bug has been squashed so you can now monitor PPC Macs from Windows again.
+<li>Several annoying Windows bugs have been squashed, so FahMon now restores it's frame state from the 
+system tray and taskbar correctly.
+<li><b>FahMon now runs on Mac OS X!</b>
+</ul>
+<p>My thanks to several members of Team Mac OS X who helped test and debug the OS X verison.</p>
+<p>Several translation updates were missed for this version, so if you notice missing translations 
+whilst using FahMon and feel like updating them, send them along to me and I'll incorporate them into 
+the builds on the website.</p>
+<p>As always if you find any bugs in FahMon please report them using <a href="http://trac.fahmon.net/">
+trac.</a></p>
+<p>Now some eye-candy:</p>
+<img src='/news/images/osx1.png' />&nbsp;<img src='/news/images/osx2.png' />
+END-----

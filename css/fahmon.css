@@ -1,0 +1,150 @@
+body
+{
+background: url('../images/header_fade_repeat.jpg') repeat-x top;
+text-align:center;
+margin:0px;
+padding:0px;
+font-family: Tahoma, serifSansSerifMonospace,sans-serif;
+font-size:12px;
+color:#666666;
+}
+
+img
+{
+behavior:url('../images/pngbehavior.htc');
+}
+
+a img
+{
+border: none;
+}
+
+a
+{
+color:#483adf;
+}
+
+a:hover
+{
+text-decoration:none;
+}
+
+#MainContainer
+{
+margin:0px auto;
+text-align:left;
+position:relative;
+z-index:1;
+}
+
+
+.TopNavigation
+{
+height:100px;
+background: url('../images/logo.png') no-repeat bottom left;
+}
+
+.TopNavigation ul
+{
+margin:0px;
+padding:0px;
+float:right;
+list-style:none;
+margin-top:60px;
+}
+
+.TopNavigation ul li
+{
+float:left;
+text-transform:uppercase;
+padding:0px;
+}
+
+.TopNavigation ul li.Selected
+{
+background-color:#333399;
+}
+
+.TopNavigation ul li a
+{
+text-decoration:none;
+color:#FFFFFF;
+padding:0px 10px;
+line-height:40px;
+display:block;
+}
+
+.TopNavigation ul li a:hover
+{
+background-color:#333399;
+}
+
+#left, #main, .box_nav ul, #newsbrief, #blogbrief {
+  background-color: #FFF;
+  border: 1px #DADADA;
+  border-style: none solid;
+  padding-top: 2px;
+}
+
+#main, #blogbrief, #newsbrief {
+  padding: 22px 25px 17px;
+}
+
+.box_home {
+  width: 395px;
+  padding: 0;
+  margin: 0 5px 0 0;
+  float: left;
+  position: relative;
+}
+
+.box_home#right {
+  float: right;
+}
+
+.box_full {
+  position: relative;
+  z-index: 5;
+  /*width: 790px;*/
+  width: 95%;
+  padding: 0;
+  clear: both;
+  margin: auto;
+}
+
+.box_full p, .box_right p {
+  line-height: 1.5em;
+}
+
+.box_full img.inline {
+  float: right;
+  /*margin: 5px 2px 0 24px;*/
+}
+
+.box_nav ul li a:link, .box_nav ul li a:visited, .box_nav ul li a:active {
+  display: block;
+  padding: 3px 15px 2px;
+  text-decoration: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.box_home:before, .box_full:before, .box_nav:before, .box_right:before {
+  display: block;
+  height: 9px;
+  overflow: hidden;
+}
+
+.box_home:after, .box_full:after, .box_nav:after, .box_right:after {
+  display: block;
+  height: 17px;
+  overflow: hidden;
+}
+/*
+.box_full:before {
+  content: url('../images/frame.full.top.png');
+}
+
+.box_full:after {
+  content: url('../images/frame.full.bottom.png');
+}
+*/

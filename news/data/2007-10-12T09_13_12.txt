@@ -1,0 +1,19 @@
+TITLE: Static links to most recent releases
+AUTHOR: Andrew Schofield
+DATE: Fri Oct 12 09:13:12 CDT 2007
+DESC: For those who publish links to FahMon downloads
+FORMAT: raw
+-----
+BODY:
+<p>Some static links have now been set up so that people can link to the most recent version of FahMon 
+without having to worry about what version number to use.</p><p>Using these links in forums etc. 
+guarantees 
+that people can always get the most recent version of FahMon without necessarily having to visit the 
+FahMon website.</p><p>This will also prevent people fom downloading outdated versions because links in 
+forums point to specific versions.</p>
+<p>The links to use are:<br />
+Windows <a 
+href="http://fahmon.net/downloads/current.php?windows">http://fahmon.net/downloads/current.php?windows</a><br/>
+Linux <a 
+href="http://fahmon.net/downloads/current.php?linux">http://fahmon.net/downloads/current.php?linux</a></p>
+END-----

@@ -1,0 +1,13 @@
+TITLE: Comments system added
+AUTHOR: Andrew Schofield
+DATE: Mon Feb 11 12:06:33 CST 2008
+DESC: blogkomm + nanoblogger, a winning combination?
+FORMAT: raw
+-----
+BODY:
+<p>I'm trying out a comment system for the news section of the site, so feel free to use it if you 
+will.<br />The captcha can sometimes appear completely unreadable, so I recommend you refresh the page 
+until it is readable and <i>then</i> start writing your comments.<br />Hopefully I can get that fixed.</p>
+<p>The software powering the comments is a nifty set of php scripts called <a 
+href="http://blogkomm.com/">blogkomm</a> which I've integrated into nanoblogger.</p>
+END-----

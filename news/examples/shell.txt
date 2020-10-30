@@ -1,0 +1,8 @@
+FahMon Client Monitoring FahMon 2.3.1pre1 - Simple Text Output
+
+State  |Prog|Name                |ETA            |PPD    |PRCG                   |Credit
+=======|====|====================|===============|=======|=======================|===========
+Ok     |50% |Salamander          |29/10/07  20:07|861.87 |1234 (R2, C120, G0)    |1620 points
+Ok     |80% |Iguana 1            |29/10/07  06:30|90.32  |5678 (R0, C1, G0)      |168 points
+Ok     |80% |Iguana 2            |29/10/07  06:38|89.54  |9012 (R0, C2, G0)      |168 points
+

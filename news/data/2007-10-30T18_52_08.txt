@@ -1,0 +1,12 @@
+TITLE: Ubuntu and PCLinuxOS packages for 2.3.1 up
+AUTHOR: Andrew Schofield
+DATE: Tue Oct 30 18:52:08 CDT 2007
+DESC: Some precompiled binaries for thos afraid of a little compilation
+FORMAT: raw
+-----
+BODY:
+<p>I've just posted some precompiled binary pacakges for both PCLinuxOS, and Ubuntu (i386 and amd64).</p>
+<p>The ubuntu packages were produced on 7.10 (gutsy) so they might not work on 7.04 (feisty). Judging by the wxgtk library used, I suspect they won't.</p>
+<p>I did plan on releasing the SUSE and Fedora RPMs at the same time, but my SUSE installation is in the middle of a major system update, and my Fedora box appears to 
+have dropped off the network for some reason, so I'm going to have to go and work out what it's doing before I can make any fc7 packages.</p>
+END-----

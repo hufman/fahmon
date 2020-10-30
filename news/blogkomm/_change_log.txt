@@ -1,0 +1,110 @@
+***************************************************************************
+blogkomm change-log
+***************************************************************************
+
+2.3.1 (oct 18)
+
+editing of textiled comments wouldn't work, added three lines
+in textarea of blogkomm_form_comments.php
+
+***************************************************************************
+
+2.3 final (oct 14)
+
+- no changes, updates help-links and content in the setup.
+
+***************************************************************************
+
+2.3 beta (oct 08)
+
+- removed a bug concerning linebreaks
+- minor changes in the setup
+- captcha admin-mode exception (dont need captcha when logged in to edit)
+- captcha preview mode inclusion (once entered, will do)
+- textile, hmtl and noHTML are now seperated from eachother
+
+**************************************************************************
+
+2.3 alpha 3 (sep 29)
+
+- added a ttf-fonts directory and configured paramaters of blogkomm_captcha.php
+  you can now upload ttf-fonts randomly chosen by the captcha-srcipt
+- str_replace() for "J", forgot that :)
+
+2.3 alpha 2 (sep 28)
+
+- str_replace() for "0oOlj17"
+- moved captcha-string creator to blogkomm_show_functions.php
+- instead of session saving an md5-uniqid (normally used in captchas) and stroing it in a session, i added a junk-creator during setup. This adds a long random-Char string to users IP, then md5() the string
+- configured captcha image-creation, so that string is always readable
+
+2.3 alpha 1 (sep 24)
+
+- added captcha, configurable during setup. captcha requires gdLibrary (gdlib, supported out of the box in PHP 4.3.x and 5.x)
+
+*****************************************************************************
+
+
+June 18, 2005
+
+2.2 beta bugfixes
+
+changed add/stripslashes function in recent comments function
+fixed a bug with previewing html, textile now officially included
+added some hints concerning the Publishing Process after template changes
+
+
+February, 28 2005
+2.2 beta-bugfixes: 
+
+- base64 "encoding" for blogkomm-discuss input-hidden fields
+- BCC notifies send to notify-users
+- fixed formating
+- new recent comments function works with html
+
+*****************************************************************************
+
+
+2.2
+- added Comments-Moderation feature. Comments can be reviewed before being
+  approved and shown in your weblog (anti-spam)
+- added Gravatar-Support. For more infos check out http://gravatar.com
+- changed e-Mail Policy, e-Mail will be shown in admin-mode only
+- added textile waiting for license clearance
+- added css :hover pseudo-class, and css- classes for "even" "odd" and "mod"-rows
+- added css-moderation enblng during setup
+- added norwegian language file
+
+2.1
+- improved setup script, with chmod-checking and automated configuration
+- rel=nofollow attribut for posted links
+- included help-system
+
+2.0
+- admin-tool integrated: editing and deleting comments on the fly
+- setup script with snippet generator (still paste only one line of code into your template to make it work)
+- e-mail hexa-coded
+- better spam-protection
+
+1.8
+- works with post-pages ( and since 2.0 ) monthly-archive pages 
+
+1.7
+- xhtml and css conformity
+- recent comments list
+- multilingual user interface, many languages available
+- permalinks for comments
+- easy to customize interface via CSS	
+- ip-logging in notify mail
+
+1.0 - 1.6
+- usable as additonal guestbook or shoutbox
+- notify functions (yourself, blogkomm-discuss)	
+- preview
+- e-mail validation on/off
+- time-formats adjustable
+- time-zone shifitng
+- remember-user feature
+- recent comments list
+- allow/disallow html-posting
+- target for links, url-autoparsing

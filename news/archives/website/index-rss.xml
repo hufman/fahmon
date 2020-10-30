@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <?xml-stylesheet type="text/css" href="http://fahmon.net/news/styles/feed.css"?>
+<rss version="2.0"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+<channel>
+<title>FahMon News</title>
+<link>http://fahmon.net/news/archives/website/index.php</link>
+<description>News and development of FahMon</description>
+<dc:language>en-us</dc:language>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:date>2009-04-03T17:39:43-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://nanoblogger.sourceforge.net" />
+<item>
+<link>http://fahmon.net/news/archives/2009/01/17/index.php#e2009-01-17T09_35_13.txt</link>
+<title>FahMon IRC Channel now online</title>
+<dc:date>2009-01-17T09:35:13-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>For those of you wanting online support or to discuss the development of FahMon, there is now an 
+official IRC channel on freenode.net at #fahmon.<br />
+<a href="irc://freenode.net/%23fahmon">Join #fahmon on freenode in your IRC client</a><br />
+<a href="http://widget.mibbit.com/?server=irc.freenode.net&channel=%23fahmon">Join #fahmon on freenode 
+with the mibbit web IRC client</a>
+</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2008/02/11/index.php#e2008-02-11T12_06_33.txt</link>
+<title>Comments system added</title>
+<dc:date>2008-02-11T12:06:33-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>I'm trying out a comment system for the news section of the site, so feel free to use it if you 
+will.<br />The captcha can sometimes appear completely unreadable, so I recommend you refresh the page 
+until it is readable and <i>then</i> start writing your comments.<br />Hopefully I can get that fixed.</p>
+<p>The software powering the comments is a nifty set of php scripts called <a 
+href="http://blogkomm.com/">blogkomm</a> which I've integrated into nanoblogger.</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/31/index.php#e2007-10-31T15_41_07.txt</link>
+<title>Trac notifications fixed/enabled</title>
+<dc:date>2007-10-31T15:41:07-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>Trac's ticket system now sends out email notifications when tickets are created/modified. So if you have set up and email address in your profile, you will 
+automatically be sent an email when replies are posted, or the bug you reported is fixed etc.</p>
+<p>Emails are sent from trac(@)fahmon.net, but you will receive no response if you reply to this address</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/22/index.php#e2007-10-22T16_25_51.txt</link>
+<title>Trac permissions fixed </title>
+<dc:date>2007-10-22T16:25:51-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>Shello alerted me that the permission were set up wrong in trac which meant that new users couldn't 
+actually create tickets. In fact, they had no more privildges than un registered users.</p>
+<p>This has now been fixed, and users registered on trac.fahmon.net can now create tickets for bug 
+reports and feature requests.</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/12/index.php#e2007-10-12T09_13_12.txt</link>
+<title>Static links to most recent releases</title>
+<dc:date>2007-10-12T09:13:12-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>Some static links have now been set up so that people can link to the most recent version of FahMon 
+without having to worry about what version number to use.</p><p>Using these links in forums etc. 
+guarantees 
+that people can always get the most recent version of FahMon without necessarily having to visit the 
+FahMon website.</p><p>This will also prevent people fom downloading outdated versions because links in 
+forums point to specific versions.</p>
+<p>The links to use are:<br />
+Windows <a 
+href="http://fahmon.net/downloads/current.php?windows">http://fahmon.net/downloads/current.php?windows</a><br/>
+Linux <a 
+href="http://fahmon.net/downloads/current.php?linux">http://fahmon.net/downloads/current.php?linux</a></p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/09/index.php#e2007-10-09T18_54_08.txt</link>
+<title>Some more website issues fixed</title>
+<dc:date>2007-10-09T18:54:08-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>I've fixed the broken link on the previous downloads page that gave a 404 for version 2.2.2.</p>
+<p>I've also managed to get the server to handle the extensions properly, so it should't try and load the download into a new window, rather it should actually download 
+the file instead.</p>
+<p>The site style has been altered to make it "wider", unfortunately this means that the fancy rounded text boxes have had to temporarily be removed, and IE 6 (and 
+below) users will ahve to live with the fact the the news page doesn't centre properly in the browser window.</p>]]></description>
+</item>
+<item>
+<link>http://fahmon.net/news/archives/2007/10/05/index.php#e2007-10-05T07_22_55.txt</link>
+<title>New Website</title>
+<dc:date>2007-10-05T07:22:55-05:00</dc:date>
+<dc:creator>Andrew Schofield</dc:creator>
+<dc:subject>Website</dc:subject>
+<description><![CDATA[<p>FahMon now has a nice new website which you are reading right 
+now.</p>
+<p>As well as being <i>the</i> source for downloading FahMon, it now 
+integrates with trac and svn for the development and support side 
+too.</p>
+<p>Hopefully this should be easier for you as end users too, and you 
+should be able to syndicate the RSS/ATOM news feeds for new releases, 
+development news and information important to translators.</p>
+<p>Since trac is being used to handle the project management, we now 
+have a sophisticated bug tracking and milestone management system. 
+This makes it very easy for you to submit bug reports and for me to 
+manage them, and the project as a whole.</p>
+<p>I'm still working on the trac side of things, so it doesn't allow 
+you to create tickets etc. yet, but that will come soon.</p>
+<p>Anyone can now browse the development source, either though the 
+trac browser, or via the svn server itself at svn.fahmon.net</p>
+<p>If you want to download the most recent development source, you 
+can check it out from svn using your favourite svn client</p>
+<pre>svn export http://svn.fahmon.net/trunk fahmon</pre>]]></description>
+</item>
+</channel>
+</rss>

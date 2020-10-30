@@ -1,0 +1,18 @@
+TITLE: FahMon 2.3.99.4 Released
+AUTHOR: Andrew Schofield
+DATE: Fri Nov 12 12:55:55 CST 2010
+DESC: 
+FORMAT: raw
+-----
+BODY:
+<p>FahMon 2.3.99.4 is now available for download. Please see the download page for details on how to get it.</p> 
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p> 
+<p>What's new in this release</p> 
+<ul>
+<li>New core support and fixed parsing of others.
+<li>Pause detection works properly now.
+<li>Update available window will show version numbers on subsequent updates.
+<li>Benchmarks database now stored in xml format. 
+</ul> 
+<p>As always if you find any bugs in the FahMon please report them using <a href="http://trac.fahmon.net/">trac</a></p> 
+END-----

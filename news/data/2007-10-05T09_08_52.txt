@@ -1,0 +1,45 @@
+TITLE: Latest development release
+AUTHOR: Andrew Schofield
+DATE: Fri Oct  5 09:08:52 CDT 2007
+DESC: The first commit outside of tags
+FORMAT: raw
+-----
+BODY:
+<p>For those of you interested in downloading bleeding edge code, 
+svn revision r38 is reasonably stable and adds a few new features in 
+addition to a number of bug-fixes</p>
+<p>To download this specific revisions, you can either download the 
+snapshot as a zip file from <a 
+href="http://trac.fahmon.net/changeset/38/trunk?old_path=%2F&amp;format=zip">here</a> or you can export it from the svn repository using the following command (you should be able to do this anonymously):</p>
+<pre>svn export -r38 http://svn.fahmon.net/trunk fahmon</pre>
+<p>This revision contains the following changes:</p>
+<pre>
+* Updated and improved documentation (this is still "Work
+  in Progress").
+* Added Czech translation.
+* Preferences dialog and client list now save changes
+  immediately, which should help in situations where FahMon
+  crashes, like fast-user-switching or closing RDP/VNC
+  sessions.
+* Added Drag-and-Drop function to the client list to allow
+  new clients to be added more easily.
+* Add Gromacs SMP CVS (GROCVS) core support.
+* Adjusted margin on the benchmarks dialog.
+* Fixed bug in "Effective Duration" code that produced
+  incorrect results when calculating values for WUs with
+  less than 100 frames
+* Detailed instructions on how to compile fahmon using the
+  MS Free Tools are now provided.
+* Altered progress detection method to use FAHlog.txt, this
+  should help with cores that don't update unitinfo.txt in
+  a timely fashion, or at all. Unitinfo.txt is still used
+  as a fallback if 1) The projectId is unknown, 2) The WU
+  is still in the "startup" phase (i.e. yellow).
+* Added WebApp module. You can now export the monitoring
+  status to 3 different formats, WebApp - a fancy jscript
+  powered web page that mimics the FahMon interface; Simple
+  Web - a simple web page containing useful data arranged
+  in a simple table; Simple Text - similar to Simple Web,
+  but optimised for shell based viewing - useful for
+  monitoring over SSH.</pre>
+END-----

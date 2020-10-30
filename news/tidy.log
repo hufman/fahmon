@@ -1,0 +1,377 @@
+
+tidy validating /home/salamander/webapps/fahmon/news/atom.xml:
+
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/releases/index-atom.xml:
+
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/rss.xml:
+
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/releases/index-rss.xml:
+
+No warnings or errors were found.
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 27 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 38 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 40 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+14 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/releases/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 23 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 25 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 27 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 37 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 41 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 46 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 48 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+16 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/2010/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 27 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 29 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 39 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 41 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+15 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/2010/11/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 23 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 29 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 30 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 31 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 40 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 44 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 49 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 51 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+19 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/2010/11/12/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 23 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 29 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 30 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 31 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 40 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 44 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 49 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 51 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+19 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/2010/10/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 23 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 29 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 30 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 31 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 40 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 44 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 49 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 51 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+19 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/archives/2010/10/19/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 23 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 29 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 30 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 31 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 40 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 44 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 49 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 51 column 1 - Warning: discarding unexpected <body>
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.1
+19 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
+
+tidy validating /home/salamander/webapps/fahmon/news/index.php:
+
+line 16 column 43 - Warning: missing <!DOCTYPE> declaration
+line 16 column 43 - Warning: plain text isn't allowed in <head> elements
+line 16 column 43 - Info: <head> previously mentioned
+line 16 column 43 - Warning: inserting implicit <body>
+line 16 column 43 - Warning: <!DOCTYPE> isn't allowed after elements
+line 19 column 1 - Warning: discarding unexpected <html>
+line 20 column 1 - Warning: <head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 23 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 24 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 26 column 1 - Warning: <title> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 28 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 29 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 30 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 31 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 40 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 45 column 1 - Warning: <link> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 49 column 1 - Warning: </head> isn't allowed in <body> elements
+line 16 column 43 - Info: <body> previously mentioned
+line 51 column 1 - Warning: discarding unexpected <body>
+line 419 column 59 - Warning: unescaped & or unknown entity "&channel"
+Info: Doctype given is "-//W3C//DTD XHTML 1.1//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+20 warnings, 0 errors were found!
+
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium

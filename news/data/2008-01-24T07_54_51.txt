@@ -1,0 +1,11 @@
+TITLE: FahMon-2.3.2beta ready for translating
+AUTHOR: Andrew Schofield
+DATE: Thu Jan 24 07:54:51 CST 2008
+DESC: 
+FORMAT: raw
+-----
+BODY:
+This is just to trigger the translations RSS feed. For the full release info see: <a 
+href="http://fahmon.net/news/archives/2008/01/24/index.html#e2008-01-24T07_51_17.txt">FahMon 2.3.2beta 
+ready for testing</a>.
+END-----

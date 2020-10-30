@@ -1,0 +1,31 @@
+TITLE: FahMon 2.3.2beta ready for testing
+AUTHOR: Andrew Schofield
+DATE: Thu Jan 24 07:51:17 CST 2008
+DESC: An unsupported release to test that bugs have been squashed
+FORMAT: raw
+-----
+BODY:
+<p>This is an unsupported beta release of FahMon to check a number of bug fixes to allow me to close 
+various support tickets.</p>
+<p>The specific behaviour that needs testing is as follows:</p>
+<ul>
+<li>Do 50 frame DGromacs WUs now report PPD and ETA correctly?
+<li>Does reloading client information still cause high CPU usage in Windows?
+<li>Does FahMon still enter a state that uses 100% CPU time when left running for several days on Windows?
+<li>Do client locations still get corrupted when monitoring large (> ~30) numbers of clients (Windows or 
+Linux)?
+</ul>
+<p>If you test this release please comment on the above bugs using the bug tracking system.</p>
+<p>For the full list of changes so far please refer top the changelog for this release, and also check the 
+tickets that have been reported for this release <a 
+href="http://trac.fahmon.net/query?status=new&status=assigned&status=reopened&status=closed&group=status&milestone=2.3.2&order=priority">here</a></p>
+<p>One bug that has not yet been fixed is ticket #77 where the web output is displayed incorrectly in IE 
+7. This will be fixed in the official release.</p>
+<br />
+<p>This release also represents the an opportunity for translators to update the translation files ready 
+for the official release. This time there are only very minor changes to the files required.<br/>
+Any budding web designers may want to try out the templating system in this release too</p>
+<b>Download:</b>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta.zip">Windows</a>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta.tar.bz2">Linux/Source</a>
+END-----

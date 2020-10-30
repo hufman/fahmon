@@ -1,0 +1,22 @@
+TITLE: Prerelease build ready for translating
+AUTHOR: Andrew Schofield
+DATE: Mon Oct 15 12:41:20 CDT 2007
+DESC: 2.3.1pre now in testing
+FORMAT: raw
+-----
+BODY:
+<p>FahMon version 2.3.1pre is now ready for translators to update the translations ready for the 
+upcoming 2.3.1 release.</p>
+<p>For existing translations there are an additional 20 strings that need translating.</p>
+<p>If FahMon doesn't exist in in your native language, and you'd like it to, now is an excellent time 
+to start translating it.</p>
+<p>The links to use are:<br />Windows <a 
+href="http://fahmon.net/downloads/testing/FahMon-2.3.1pre.zip">http://fahmon.net/downloads/testing/FahMon-2.3.1pre.zip</a><br 
+/>Linux <a 
+href="http://fahmon.net/downloads/testing/FahMon-2.3.1pre.tar.bz2">http://fahmon.net/downloads/testing/FahMon-2.3.1pre.tar.bz2</a></p>
+<p>The information you'll need for submitting translations etc, can be found <a 
+href="http://trac.fahmon.net/wiki/TranslatingFahMon">here</a>.</p>
+<p>I'm quite happy for non-translators to use these builds, however, they are not, and never will be 
+supported in any way (and you'll be missing any updated or new translations).<br />If you want to stay 
+supported, wait until the official release is announced.</p>
+END-----

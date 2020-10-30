@@ -1,0 +1,24 @@
+<div class="item">
+	<a id="$NB_EntryID"></a>
+	<h2 class="date">$NB_EntryDate</h2>
+	<div class="blogbody">
+		<h3 class="title">$NB_EntryTitle</h3>
+		<div class="item-description">
+			$NB_EntryBody
+		</div>
+	</div>
+
+	<div class="posted">
+		<br />$template_postedby <span class="item-creator">$NB_EntryAuthor</span>
+$([ "$PERMALINKS" = "1" ] && echo '| <a class="link" href="'${ARCHIVES_PATH}$NB_EntryPermalink'">'$template_permlink'</a>')
+$([ ! -z "$NB_EntryCategories" ] && echo "| $template_catlinks $NB_EntryCategories" |sed -e '{$ s/\,$//; }')
+<!--<a href="${BASE_URL}$BLOG_URL_ACTION$ARCHIVES_DIR/$NB_EntryPermalink#comments" target="_blank" >$template_cmtlink</a>//-->
+<?php
+ \$post_url=parse_url('http://fahmon.net/news/archives/${NB_EntryPermalink}', PHP_URL_PATH); 
+ \$blog_id='$NB_EntryID';
+ \$blog_mail='andrew_s@fahmon.net';
+ define (BK_PATH, "/home/salamander/webapps/fahmon/news/blogkomm");
+ include (BK_PATH."/module/blogkomm_show_link.php");
+?>
+	</div>
+</div>

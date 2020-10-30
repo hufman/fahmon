@@ -1,0 +1,18 @@
+TITLE: Important info for users running 2.3.2a on Windows
+AUTHOR: Andrew Schofield
+DATE: Sat Feb 16 13:00:04 CST 2008
+DESC: 
+FORMAT: raw
+-----
+BODY:
+<p>It has come to my attention that the system tray icon restore behaviour is still broken in this 
+release, and may in fact actually be worse than previous versions.<br />I believe this is actually due 
+to a broken compile, as the code added did work during testing. Unfortunately I cannot release a 
+recompiled build until early next week as I have to create a fresh Virtual Machine of XP and the 
+FahMon build environment owing to my current VM now being broken beyond all usefulness.</p>
+<p>If you do experience significant problems with the current build of 2.3.2a, switch back to 2.3.2 
+until I can recompile 2.3.2a correctly again.</p>
+Download: <a href="/downloads/FahMon_2.3.2.zip">2.3.2 Zip file</a>&nbsp;|&nbsp;<a 
+href="/downloads/FahMon-2.3.2-Installer.exe">2.3.2 Installer</a>
+<p>Please note: This issue does <i>not</i> affect Linux or OS X users.</p>
+END-----

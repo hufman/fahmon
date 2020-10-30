@@ -1,0 +1,36 @@
+TITLE: OS X Port in development
+AUTHOR: Andrew Schofield
+DATE: Mon Oct 15 13:06:49 CDT 2007
+DESC: Slow but steady progress towards FahMon on OS X
+FORMAT: raw
+-----
+BODY:
+<p>Given that the wxWigets library is supposed to be a platform independent API, and since FahMon already 
+exists for Windows and Linux, why can't it exist for OS X too?</p>
+<p>Well the answer is, it can!</p>
+<p>Thanks to some prodding from Shello from P@F, I've started modifying the platform dependent 
+portions of FahMon to be compatible with OS X, using a Mac that I've been able to get my hands on. 
+Shello has also graciously offered to help in this regard with his Mac.</p>
+<p>Currently the state of the port is quite early on. The source compiles and runs on OS X, but there 
+are still a large number of bugs, mainly due to the difference in the way OS X handles application 
+frames etc. Some of the bugs at the moment seem to be a bit strange in their behaviour, like crashing 
+when you right-click the client list for example.</p>
+<p>I'm fairly confident that these can be resolved in short order though, once I understand what is 
+causing the problem.</p>
+<p>The OS X conversion is taking place in parallel to the existing Windows and Linux versions, so if I 
+accidentally break something in the OS X build, it won't affect the Windows or Linux versions until 
+the conversion is complete, by which time everything should work.</p>
+<p>Here's a little screenshot of what it looks like so far:</p>
+<img src="http://fahmon.net/images/fahmon_osx.png" />
+<p>Once the conversion becomes a little more stable I'll start releasing binary test builds, but at 
+the moment given it's infancy and instability, the only way you can access it is from the svn 
+repository.</p>
+<pre>svn co http://fahmon.net/branches/mactest FahMon_mac</pre>
+<p>To actually compile FahMon, you'll need Xcode and wxWidgets compiled as a static library (only 
+required for build-time, not run-time). The best place to find information on how to get this is on 
+the <a href="http://www.wxwidgets.org/wiki/index.php/Getting_started_on_OS_X">wxWidgets wiki</a><br 
+/>After that it's just a case of 
+running<pre>./configure
+make
+make FahMon.app</pre>At which point you should have a FahMon application bundle!</p>
+END-----

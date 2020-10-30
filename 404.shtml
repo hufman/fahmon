@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Uncle,Fungus,Uncle_Fungus,uncle,fungus,fah,FAH,F@H,f@h,folding,wxwidgets,information,work-unit,fahmon" />
+	<meta name="description" content="The cross-platform Folding@home client monitor" />
+	<meta name="robots" content="index,follow" />
+	<link rel="shortcut icon" href="./images/favicon.ico" />
+	<title>Not Found | FahMon</title>
+	<link href="http://fahmon.net/css/fahmon.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 7]>
+	<style>
+	.TopNavigation ul
+	{
+	margin-left:100px;
+}
+	</style>
+	<![endif]-->
+</head>
+<body>
+<div id="BodyWrapper">
+<div id="MainContainer">
+<div class="TopNavigation">
+<ul>
+<li><a href="http://fahmon.net">Home</a></li>
+<li><a href="download.html">Download</a></li>
+<li><a href="screenshots.html">Screenshots</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="news/">News</a></li>
+<li><a href="http://trac.fahmon.net">Support &amp; Development</a></li>
+</ul>
+</div>
+<br />
+<div class="box_full">
+<div id="main">
+<h1>404 - Page not found</h1>
+<p>You were trying to reach <a>http://<!--#echo var="HTTP_HOST" --><!--#echo var="REQUEST_URI" --></a></p>
+
+<p>It is likely that you reached this page in error, as there should be no pages that are missing.</p>
+
+<p>Try going back to the <a href="http://fahmon.net">home page</a> and starting from there</p>
+
+<p>If you think the page you tried to access should exist but doesn't, please submit a ticket in trac so 
+it can be fixed</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

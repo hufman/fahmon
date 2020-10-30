@@ -1,0 +1,30 @@
+TITLE: First post for translators
+AUTHOR: Andrew Schofield
+DATE: Fri Oct  5 09:44:45 CDT 2007
+DESC: Information for potential translators
+FORMAT: raw
+-----
+BODY:
+<p>For the existing translators out there, and for any potential new 
+translators, this is the section you want to be watching to stay up 
+to date with when new translations are required.</p>
+<p>This generally means you'll get a few days advance on everyone 
+else for downloading the official release, however it won't be 
+officially supported, and should really only be used for checking 
+that your new translations work etc.</p>
+<p>To subscribe to this website category, the best way is to go to 
+the translations category link on the side bar and subscribe to the 
+rss feed. Alternatively you can click on the rss/atom feeds on the 
+"syndicate" panel on the right, which any modern browser will allow 
+you to bookmark, or send to google reader.</p>
+<p>To get involved in translations right away, all you need to 
+download is the fahmon.pot file from the svn trunk (see the home 
+page for the direct link). About a week or so prior to an official 
+release, a new post will be made here to notify you of the 
+prerelease translation source (if you are keen and keep up with 
+development, you shouldn't have to do very much on the prerelease 
+versions).</p>
+<p>To submit your translations, at the moment the best way to do it 
+is the submit a ticket on trac, and attach the .po file you have 
+created. I can then merge that into the source.</p>
+END-----

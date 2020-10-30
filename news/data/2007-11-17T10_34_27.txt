@@ -1,0 +1,24 @@
+TITLE: Stability updates
+AUTHOR: Andrew Schofield
+DATE: Sat Nov 17 10:34:27 CST 2007
+DESC: Removed some unstable code
+FORMAT: raw
+-----
+BODY:
+<p>Starting with FahMon 2.3.2, several pieces of data crucial to FahMon's operation will now be 
+obtained directly from queue.dat, since this is the only reliable source for these data.</p>
+<p>To this end, some of the core code from qd has been ported into FahMon to access data from the 
+queue in a tried and trusted fashion.</p>
+<p>My thanks go to Dick Howell and Bas Couwenberg for this code.</p>
+<p>With the introduction of qd into FahMon, the messages windows now displays the following licence text 
+upon startup:</p>
+<pre>FahMon <version> is licenced under the GNU GPL v2
+Copyright (C) 2003-2007 Francois Ingelrest
+Copyright (C) 2007 Andrew Schofield
+   
+FahMon contains code from qd, also licenced under the GNU GPL v2
+Copyright (C) 2002-2005 Richard P. Howell IV.
+Copyright (C) 2005-2007 Sebastiaan Couwenberg</pre>
+<p>The overall upshot of these changes is that FahMon should be much more stable, and no longer crash 
+or mangle machine names when monitoring large numbers of clients.</p>
+END-----

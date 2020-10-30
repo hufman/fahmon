@@ -1,0 +1,13 @@
+TITLE: Some more website issues fixed
+AUTHOR: Andrew Schofield
+DATE: Tue Oct  9 18:54:08 CDT 2007
+DESC: Less annoyances
+FORMAT: raw
+-----
+BODY:
+<p>I've fixed the broken link on the previous downloads page that gave a 404 for version 2.2.2.</p>
+<p>I've also managed to get the server to handle the extensions properly, so it should't try and load the download into a new window, rather it should actually download 
+the file instead.</p>
+<p>The site style has been altered to make it "wider", unfortunately this means that the fancy rounded text boxes have had to temporarily be removed, and IE 6 (and 
+below) users will ahve to live with the fact the the news page doesn't centre properly in the browser window.</p>
+END-----

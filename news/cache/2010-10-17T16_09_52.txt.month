@@ -1,0 +1,17 @@
+TITLE: FahMon 2.3.99.2 Released
+AUTHOR: Andrew Schofield
+DATE: Sun Oct 17 16:09:52 CDT 2010
+DESC: 
+FORMAT: raw
+-----
+BODY:
+<p>FahMon 2.3.99.2 is now available for download. Please see the download page for details on how to get it.</p> 
+<p>For a comprehensive list of changes please view the changelog which is linked to from the homepage.</p> 
+<p>What's new in this release</p> 
+<ul> 
+<li>New core support.
+<li>Fixed thread-safety issues.
+<li>Projects database now stored in xml format.
+</ul> 
+<p>As always if you find any bugs in the FahMon please report them using <a href="http://trac.fahmon.net/">trac</a></p> 
+END-----

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+        <?xml-stylesheet type="text/css" href="http://fahmon.net/news/styles/feed.css"?>
+<title type="html">Development</title>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news"/>
+<link rel="self" type="application/atom+xml" href="http://fahmon.net/news/archives/development/index-atom.xml"/>
+<updated>2008-06-16T12:00:20-05:00</updated>
+<author>
+<name>Andrew Schofield</name>
+<uri>http://fahmon.net/news</uri>
+</author>
+<id>http://fahmon.net/news/</id>
+<generator uri="http://nanoblogger.sourceforge.net" version="3.3">
+NanoBlogger
+</generator>
+
+<entry>
+<title type="html">Upcoming developments and contributions</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/06/16/index.php#e2008-06-16T11_48_49.txt"/>
+<id>http://fahmon.net/news/archives/2008/06/16/index.php#e2008-06-16T11_48_49.txt</id>
+<published>2008-06-16T11:48:49-05:00</published>
+<updated>2008-06-16T11:48:49-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>I'm writing this news post mainly to let members of the community know what's going on with FahMon development-wise, since there have been no new announcements since 
+April.</p>
+<b>Developments</b>
+<p>For those of you who are not aware, FahMon is coded entirely in my spare time, which recently I have had virtually none of (writing theses was the main culprit). 
+However, I'm about to start a major drive to get various bits of core code in FahMon up to scratch and more stable.<br />There are already a number of GUI enhancements in 
+svn including re-organised menus (for those who were confused about the lack of a "client" menu), configurable columns in the main view and the ability to hide the "WU 
+Information" panel. There may be a few more tweaks to the GUI being made of the next few days to try and make the whole thing a little slicker than in the current 
+release.<br />After finishing the GUI updates I'll be taking a look at the innards of the monitoring code, and possibly re-writing major portions of it to increase 
+stability, and compatibility (mainly with SMP clients inside Virtual Machines).</p>
+<p>I also hope to be able to put together some build-bots to automatically compile the latest svn code to ease the testing process.</p>
+<b>Contributing</b>
+<p>There are a number of ways that you can help contribute to the development of FahMon, and only 1 of them requires you to have any programming knowledge:</p>
+<ul>
+<li>Bug reporting. This is <i>very</i> important to help improve FahMon, because unless I know a bug exists, I can't fix it.
+<li>Ideas for features. You guys might come up with something I had'nt thought of.
+<li>Code contributions. I welcome any patches to code, from typos to new functions.
+<li>Monetary donations. There's a paypal link on the homepage. There's no obligation, but if you want to donate, the facility is there.
+</ul>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">Important info for users running 2.3.2a on Windows</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/02/16/index.php#e2008-02-16T13_00_04.txt"/>
+<id>http://fahmon.net/news/archives/2008/02/16/index.php#e2008-02-16T13_00_04.txt</id>
+<published>2008-02-16T13:00:04-05:00</published>
+<updated>2008-02-16T13:00:04-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>It has come to my attention that the system tray icon restore behaviour is still broken in this 
+release, and may in fact actually be worse than previous versions.<br />I believe this is actually due 
+to a broken compile, as the code added did work during testing. Unfortunately I cannot release a 
+recompiled build until early next week as I have to create a fresh Virtual Machine of XP and the 
+FahMon build environment owing to my current VM now being broken beyond all usefulness.</p>
+<p>If you do experience significant problems with the current build of 2.3.2a, switch back to 2.3.2 
+until I can recompile 2.3.2a correctly again.</p>
+Download: <a href="/downloads/FahMon_2.3.2.zip">2.3.2 Zip file</a>&nbsp;|&nbsp;<a 
+href="/downloads/FahMon-2.3.2-Installer.exe">2.3.2 Installer</a>
+<p>Please note: This issue does <i>not</i> affect Linux or OS X users.</p>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">FahMon-2.3.2beta3 ready for testing</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/01/31/index.php#e2008-01-31T06_20_26.txt"/>
+<id>http://fahmon.net/news/archives/2008/01/31/index.php#e2008-01-31T06_20_26.txt</id>
+<published>2008-01-31T06:20:26-05:00</published>
+<updated>2008-01-31T06:20:26-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>This is the third and hopefully final unsupported beta for FahMon 2.3.2 to clear up some additional 
+reported bugs.</p>
+<p>This release fixes an issue with the download time and effective rate calculations which were being 
+translated by incorrect amounts from UTC by the timezone logic. An issue which caused FahMon to crash at 
+the end of perculiar WUs have also been dealt with.</p>
+<p>Assuming this beta is stable, and I can get all the outstanding translations back in a timely fashion, 
+2.3.2 should be released publicly sometime next week. There are a number of documentation files that need 
+to be altered in the meantime.</p>
+<p>As always, report bugs in this release using trac: <a 
+href="http://trac.fahmon.net/">http://trac.fahmon.net</a>.</p>
+<b>Download:</b>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta3.zip">Windows</a>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta3.tar.bz2">Linux/Source</a>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">FahMon-2.3.2beta2 ready for testing</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/01/26/index.php#e2008-01-26T17_29_56.txt"/>
+<id>http://fahmon.net/news/archives/2008/01/26/index.php#e2008-01-26T17_29_56.txt</id>
+<published>2008-01-26T17:29:56-05:00</published>
+<updated>2008-01-26T17:29:56-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>This is the second unsupported beta for FahMon 2.3.2 to test a number of new bug fixes.</p>
+<p>The main bug fixed in this beta is the crash bug when project data is missing. A number of bugs related 
+to the web output translations have also been fixed, but the WebApp output is still incompatible with IE7 
+at this time.</p>
+<p>There have been two reports of a bug relating to the manual timezone setting but I cannot replicate 
+the bug so it needs to be tested more thoroughly.<br />The bug reports state that the manual timezone 
+setting is not restored across restarts of FahMon, and that while the setting does not affect the 
+effective PPD or ETA calculations resulting in incorrect information being displayed.</p>
+<p>To reliably test this version please make sure that you trash prefs.dat beforehand (or install the 
+beta to a separate location), and as always report bugs using trac: <a 
+href="http://trac.fahmon.net/">http://trac.fahmon.net</a>.</p>
+<b>Download:</b>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta2.zip">Windows</a>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta2.tar.bz2">Linux/Source</a>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">Known bugs in 2.3.2beta</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/01/25/index.php#e2008-01-25T12_54_12.txt"/>
+<id>http://fahmon.net/news/archives/2008/01/25/index.php#e2008-01-25T12_54_12.txt</id>
+<published>2008-01-25T12:54:12-05:00</published>
+<updated>2008-01-25T12:54:12-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[There have been a couple of reports of undocumented bugs in the 2.3.2beta release which have now been 
+fixed in SVN. It is likely that a beta2 will be released in the near future to check that these bugs are 
+no longer present.
+<ul>
+<li>FahMon will crash if the project database doesn't contain project info for a WU it is monitoring.
+<li>The simple web output erroneously adds an extra "points" string to the credit field.
+<li>Several text items on all web output files cannot be translated.
+</ul>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">FahMon 2.3.2beta ready for testing</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/01/24/index.php#e2008-01-24T07_51_17.txt"/>
+<id>http://fahmon.net/news/archives/2008/01/24/index.php#e2008-01-24T07_51_17.txt</id>
+<published>2008-01-24T07:51:17-05:00</published>
+<updated>2008-01-24T07:51:17-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>This is an unsupported beta release of FahMon to check a number of bug fixes to allow me to close 
+various support tickets.</p>
+<p>The specific behaviour that needs testing is as follows:</p>
+<ul>
+<li>Do 50 frame DGromacs WUs now report PPD and ETA correctly?
+<li>Does reloading client information still cause high CPU usage in Windows?
+<li>Does FahMon still enter a state that uses 100% CPU time when left running for several days on Windows?
+<li>Do client locations still get corrupted when monitoring large (> ~30) numbers of clients (Windows or 
+Linux)?
+</ul>
+<p>If you test this release please comment on the above bugs using the bug tracking system.</p>
+<p>For the full list of changes so far please refer top the changelog for this release, and also check the 
+tickets that have been reported for this release <a 
+href="http://trac.fahmon.net/query?status=new&status=assigned&status=reopened&status=closed&group=status&milestone=2.3.2&order=priority">here</a></p>
+<p>One bug that has not yet been fixed is ticket #77 where the web output is displayed incorrectly in IE 
+7. This will be fixed in the official release.</p>
+<br />
+<p>This release also represents the an opportunity for translators to update the translation files ready 
+for the official release. This time there are only very minor changes to the files required.<br/>
+Any budding web designers may want to try out the templating system in this release too</p>
+<b>Download:</b>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta.zip">Windows</a>
+<a href="http://fahmon.net/downloads/testing/FahMon-2.3.2beta.tar.bz2">Linux/Source</a>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">Web templating system</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2008/01/19/index.php#e2008-01-19T19_05_59.txt"/>
+<id>http://fahmon.net/news/archives/2008/01/19/index.php#e2008-01-19T19_05_59.txt</id>
+<published>2008-01-19T19:05:59-05:00</published>
+<updated>2008-01-19T19:05:59-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>In order to fix some serious bugs in the web output system (and the rather stupid object code it 
+generated), I've adapted it to use a templating system.</p>
+<p>This makes it easier to fix bugs in the pages generated, like the current IE7 rendering issue with 
+the fancy output page. Another upside of this is that now you, the end user, can make your own 
+templates and make the output pages appear just how you want them.</p>
+<p>For the moment you can still only generate 3 pages, and the template filenames are fixed, but you 
+can still edit the predefined template as you see fit. Future revisions may allow you to specify the 
+template file to use for the output page. Also, if you make a particularly nice output page, submit it 
+in a ticket and I'll consider including it with the next FahMon release.</p>
+<p>Template files are stored within the templates subdirectory of your FahMon installation on Windows, 
+and you can edit these directly. On Linux, the templates are installed to /usr/share/fahmon/templates 
+or /usr/local/share/fahmon/templates by default. However, if you want to modify these, make a new 
+directory inside your .fahmon/ config folder called "templates" and copy them there.</p>
+<p>To check out these modifications now, checkout the latest revision from svn (source only). To learn how 
+to use the templates, have a look at this file: <a href="http://trac.fahmon.net/browser/trunk/TEMPLATE_SYNTAX?format=raw">http://trac.fahmon.net/browser/trunk/TEMPLATE_SYNTAX?format=raw</a>.</p>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">Stability updates</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2007/11/17/index.php#e2007-11-17T10_34_27.txt"/>
+<id>http://fahmon.net/news/archives/2007/11/17/index.php#e2007-11-17T10_34_27.txt</id>
+<published>2007-11-17T10:34:27-05:00</published>
+<updated>2007-11-17T10:34:27-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>Starting with FahMon 2.3.2, several pieces of data crucial to FahMon's operation will now be 
+obtained directly from queue.dat, since this is the only reliable source for these data.</p>
+<p>To this end, some of the core code from qd has been ported into FahMon to access data from the 
+queue in a tried and trusted fashion.</p>
+<p>My thanks go to Dick Howell and Bas Couwenberg for this code.</p>
+<p>With the introduction of qd into FahMon, the messages windows now displays the following licence text 
+upon startup:</p>
+<pre>FahMon <version> is licenced under the GNU GPL v2
+Copyright (C) 2003-2007 Francois Ingelrest
+Copyright (C) 2007 Andrew Schofield
+   
+FahMon contains code from qd, also licenced under the GNU GPL v2
+Copyright (C) 2002-2005 Richard P. Howell IV.
+Copyright (C) 2005-2007 Sebastiaan Couwenberg</pre>
+<p>The overall upshot of these changes is that FahMon should be much more stable, and no longer crash 
+or mangle machine names when monitoring large numbers of clients.</p>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">OS X Port in development</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2007/10/15/index.php#e2007-10-15T13_06_49.txt"/>
+<id>http://fahmon.net/news/archives/2007/10/15/index.php#e2007-10-15T13_06_49.txt</id>
+<published>2007-10-15T13:06:49-05:00</published>
+<updated>2007-10-15T13:06:49-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>Given that the wxWigets library is supposed to be a platform independent API, and since FahMon already 
+exists for Windows and Linux, why can't it exist for OS X too?</p>
+<p>Well the answer is, it can!</p>
+<p>Thanks to some prodding from Shello from P@F, I've started modifying the platform dependent 
+portions of FahMon to be compatible with OS X, using a Mac that I've been able to get my hands on. 
+Shello has also graciously offered to help in this regard with his Mac.</p>
+<p>Currently the state of the port is quite early on. The source compiles and runs on OS X, but there 
+are still a large number of bugs, mainly due to the difference in the way OS X handles application 
+frames etc. Some of the bugs at the moment seem to be a bit strange in their behaviour, like crashing 
+when you right-click the client list for example.</p>
+<p>I'm fairly confident that these can be resolved in short order though, once I understand what is 
+causing the problem.</p>
+<p>The OS X conversion is taking place in parallel to the existing Windows and Linux versions, so if I 
+accidentally break something in the OS X build, it won't affect the Windows or Linux versions until 
+the conversion is complete, by which time everything should work.</p>
+<p>Here's a little screenshot of what it looks like so far:</p>
+<img src="http://fahmon.net/images/fahmon_osx.png" />
+<p>Once the conversion becomes a little more stable I'll start releasing binary test builds, but at 
+the moment given it's infancy and instability, the only way you can access it is from the svn 
+repository.</p>
+<pre>svn co http://fahmon.net/branches/mactest FahMon_mac</pre>
+<p>To actually compile FahMon, you'll need Xcode and wxWidgets compiled as a static library (only 
+required for build-time, not run-time). The best place to find information on how to get this is on 
+the <a href="http://www.wxwidgets.org/wiki/index.php/Getting_started_on_OS_X">wxWidgets wiki</a><br 
+/>After that it's just a case of 
+running<pre>./configure
+make
+make FahMon.app</pre>At which point you should have a FahMon application bundle!</p>]]>
+</div>
+</content>
+
+</entry>
+<entry>
+<title type="html">Latest development release</title>
+<author>
+<name>Andrew Schofield</name>
+</author>
+<link rel="alternate" type="text/html" href="http://fahmon.net/news/archives/2007/10/05/index.php#e2007-10-05T09_08_52.txt"/>
+<id>http://fahmon.net/news/archives/2007/10/05/index.php#e2007-10-05T09_08_52.txt</id>
+<published>2007-10-05T09:08:52-05:00</published>
+<updated>2007-10-05T09:08:52-05:00</updated>
+<category term="Development" />
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<![CDATA[<p>For those of you interested in downloading bleeding edge code, 
+svn revision r38 is reasonably stable and adds a few new features in 
+addition to a number of bug-fixes</p>
+<p>To download this specific revisions, you can either download the 
+snapshot as a zip file from <a 
+href="http://trac.fahmon.net/changeset/38/trunk?old_path=%2F&amp;format=zip">here</a> or you can export it from the svn repository using the following command (you should be able to do this anonymously):</p>
+<pre>svn export -r38 http://svn.fahmon.net/trunk fahmon</pre>
+<p>This revision contains the following changes:</p>
+<pre>
+* Updated and improved documentation (this is still "Work
+  in Progress").
+* Added Czech translation.
+* Preferences dialog and client list now save changes
+  immediately, which should help in situations where FahMon
+  crashes, like fast-user-switching or closing RDP/VNC
+  sessions.
+* Added Drag-and-Drop function to the client list to allow
+  new clients to be added more easily.
+* Add Gromacs SMP CVS (GROCVS) core support.
+* Adjusted margin on the benchmarks dialog.
+* Fixed bug in "Effective Duration" code that produced
+  incorrect results when calculating values for WUs with
+  less than 100 frames
+* Detailed instructions on how to compile fahmon using the
+  MS Free Tools are now provided.
+* Altered progress detection method to use FAHlog.txt, this
+  should help with cores that don't update unitinfo.txt in
+  a timely fashion, or at all. Unitinfo.txt is still used
+  as a fallback if 1) The projectId is unknown, 2) The WU
+  is still in the "startup" phase (i.e. yellow).
+* Added WebApp module. You can now export the monitoring
+  status to 3 different formats, WebApp - a fancy jscript
+  powered web page that mimics the FahMon interface; Simple
+  Web - a simple web page containing useful data arranged
+  in a simple table; Simple Text - similar to Simple Web,
+  but optimised for shell based viewing - useful for
+  monitoring over SSH.</pre>]]>
+</div>
+</content>
+
+</entry>
+
+</feed>

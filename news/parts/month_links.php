@@ -1,0 +1,11 @@
+<a href="./archives/2010/11/index.php">November 2010</a> (1)<br />
+<a href="./archives/2010/10/index.php">October 2010</a> (2)<br />
+<a href="./archives/2009/04/index.php">April 2009</a> (2)<br />
+<a href="./archives/2009/01/index.php">January 2009</a> (1)<br />
+<a href="./archives/2008/11/index.php">November 2008</a> (2)<br />
+<a href="./archives/2008/06/index.php">June 2008</a> (1)<br />
+<a href="./archives/2008/04/index.php">April 2008</a> (1)<br />
+<a href="./archives/2008/02/index.php">February 2008</a> (5)<br />
+<a href="./archives/2008/01/index.php">January 2008</a> (7)<br />
+<a href="./archives/2007/11/index.php">November 2007</a> (2)<br />
+<a href="./archives/2007/10/index.php">October 2007</a> (12)<br />
