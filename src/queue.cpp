@@ -53,7 +53,7 @@ bool Queue::LoadQueueFile(wxString const &filename, wxString const &clientName, 
 	FILE             *fp;
 	wxInt32           i, queueversion, systype, n, estat, na, nc, it;
 	wxUint32          *tp;
-	char             *q;
+	const char        *q;
 	bool              genome, endianswap;
 	unsigned long     tmpLong;
 	bool              overrideTZ;
@@ -141,7 +141,7 @@ tt:				if (genome)
 #endif
 				break;
 		}
-		q = (char *)tmpWxStr.c_str();
+		q = (const char *)tmpWxStr.c_str();
 
 		if (q != NULL)
 			systype = *q++ - '0';
@@ -165,7 +165,7 @@ tt:				if (genome)
 			if ((queueversion == 314) && ((i >= 324) && (i < 400)))
 			{
 				tmpWxStr = _T("Google");
-				q = (char *)tmpWxStr.c_str();
+				q = (const char *)tmpWxStr.c_str();
 				i = queueversion;
 			}
 			if (i > MAXQVER)

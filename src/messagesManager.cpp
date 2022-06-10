@@ -104,7 +104,7 @@ void MessagesManager::Log(wxString const &msg)
 	// We can't directly call methods of MessagesFrame, we must use the main dialog to transfer the warning
 	if(MainDialog::HasBeenInstanciated() == true)
 	{
-		MainDialog::GetInstance()->AddPendingEvent(event);
+		MainDialog::GetInstance()->GetEventHandler()->AddPendingEvent(event);
 	}
 
 	if(wxGetApp().GetStress())

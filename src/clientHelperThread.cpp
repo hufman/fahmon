@@ -53,7 +53,7 @@ void* ClientHelperThread::Entry(void)
 		ClientsManager::GetInstance()->Reload(mClientId);
 		// Post an event to the queue of the MainDialog to warn it that the job is done
 		event.SetInt(mClientId);
-		MainDialog::GetInstance()->AddPendingEvent(event);
+		MainDialog::GetInstance()->GetEventHandler()->AddPendingEvent(event);
 	}
 	// Dummy return code
 	return NULL;
@@ -92,7 +92,7 @@ void* SerialClientHelperThread::Entry(void)
 			ClientsManager::GetInstance()->Reload(i);
 			// Post an event to the queue of the MainDialog to warn it that the job is done
 			event.SetInt(i);
-			MainDialog::GetInstance()->AddPendingEvent(event);
+			MainDialog::GetInstance()->GetEventHandler()->AddPendingEvent(event);
 		}
 
 	}

@@ -603,7 +603,7 @@ std::vector<wxString> WebMonitor::TemplateToVector(wxString const &inputTemplate
 
 	for(i=0;i<inputTemplate.Length();i++)
 	{
-		switch(inputTemplate.GetChar(i))
+		switch((char)inputTemplate.GetChar(i))
 		{
 			case '@':
 				if(!isOpenTag)

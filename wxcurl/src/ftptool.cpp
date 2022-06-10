@@ -106,20 +106,20 @@ bool wxCurlFTPTool::GetFTPFs(wxArrayFTPFs& fs, const wxString& szRemoteLoc /*= w
 		{
 			wxTextInputStream txtInStream(inStream);
 			wxString szCurrentLine = txtInStream.ReadLine();
+			char cstring[1024];
 
 			while(!szCurrentLine.IsEmpty())
 			{
 				struct ftpparse ftppItem;
 
-				if(ftpparse(&ftppItem, (char*)szCurrentLine.GetWriteBuf(
-                        szCurrentLine.Len()), szCurrentLine.Len()) != 0)
+				strncpy(cstring, szCurrentLine.ToUTF8(), 1023);
+				if(ftpparse(&ftppItem, cstring, szCurrentLine.Len()) != 0)
 				{					
 					fs.Add(wxCurlFTPFs((wxChar*)ftppItem.name, 
                             (ftppItem.flagtrycwd == 1),(ftppItem.flagtryretr == 1),
                                 ftppItem.mtime,ftppItem.size));
 				}
 
-				szCurrentLine.UngetWriteBuf();
 				szCurrentLine = txtInStream.ReadLine();
 			}
 

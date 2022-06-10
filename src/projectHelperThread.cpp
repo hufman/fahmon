@@ -51,7 +51,7 @@ void* ProjectHelperThread::Entry(void)
 	// We do this only if everything went OK
 	if(updateResult == true)
 	{
-		MainDialog::GetInstance()->AddPendingEvent(event);
+		MainDialog::GetInstance()->GetEventHandler()->AddPendingEvent(event);
 	}
 
 	// Dummy return code

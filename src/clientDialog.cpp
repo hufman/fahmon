@@ -254,7 +254,7 @@ void ClientDialog::OnOkButton(wxCommandEvent& event)
 
 		// And warn the main dialog
 		newClientEvent.SetInt(newClientId);
-		MainDialog::GetInstance()->AddPendingEvent(newClientEvent);
+		MainDialog::GetInstance()->GetEventHandler()->AddPendingEvent(newClientEvent);
 	}
 
 	// Let the default handler do its job

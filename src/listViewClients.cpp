@@ -1035,7 +1035,7 @@ void ListViewClients::OnMenuDeleteClient(wxCommandEvent& event)
 		ClientsManager::GetInstance()->Delete(selectedClientId);
 
 		// And warn the main dialog
-		MainDialog::GetInstance()->AddPendingEvent(deleteEvent);
+		MainDialog::GetInstance()->GetEventHandler()->AddPendingEvent(deleteEvent);
 	}
 }
 
