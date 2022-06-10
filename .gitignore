@@ -1,0 +1,11 @@
+Makefile
+autom4te.cache
+config.log
+config.status
+src/fahmon
+*.la
+*.lo
+*.o
+*.swp
+.deps
+.libs
